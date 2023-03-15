@@ -81,7 +81,7 @@ function App() {
                             {startWord} to {endWord}
                         </h1>
                     }
-                    <ul className="flex row gap-2 justify-center mb-10">
+                    <ul className="flex row gap-2 justify-center mb-10 max-w-5xl flex-wrap">
                         <li>Your path:</li>
                         {wordHistory.map((word) => (
                             <li>{word}</li>
